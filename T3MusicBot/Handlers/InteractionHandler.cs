@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 
 
-namespace KebabBot.Handlers
+namespace T3MusicBot.Handlers
 {
     public class InteractionHandler
     {

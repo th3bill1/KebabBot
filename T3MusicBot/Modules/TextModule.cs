@@ -2,14 +2,14 @@
 using Discord.Interactions;
 using System;
 using System.Threading.Tasks;
-using KebabBot.ChatGPT;
+using T3MusicBot.ChatGPT;
 using Discord.Audio;
 using System.Diagnostics;
-using KebabBot.Services;
-using KebabBot.Handlers;
+using T3MusicBot.Services;
+using T3MusicBot.Handlers;
 using System.Security.Policy;
 
-namespace KebabBot.Modules
+namespace T3MusicBot.Modules
 {
     public class TextModule : InteractionModuleBase<SocketInteractionContext>
     {

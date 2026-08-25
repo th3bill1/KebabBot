@@ -10,13 +10,13 @@ using Genius;
 using HtmlAgilityPack;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace KebabBot.Services
+namespace T3MusicBot.Services
 {
     public class GeniusService
     {
         private GeniusClient _client;
         private string _token;
-        private readonly string token_location = "C:\\Program Files\\KebabBot\\genius_token.txt";
+        private readonly string token_location = "C:\\Program Files\\T3MusicBot\\genius_token.txt";
 
         public GeniusService()
         {

@@ -1,11 +1,11 @@
 ﻿using Discord;
 using Discord.Commands;
 using Discord.Interactions;
-using KebabBot.Services;
+using T3MusicBot.Services;
 using Victoria;
 using Victoria.Rest.Search;
 
-namespace KebabBot.Modules
+namespace T3MusicBot.Modules
 {
     public class AudioModule(
     LavaNode<LavaPlayer<LavaTrack>, LavaTrack> lavaNode,

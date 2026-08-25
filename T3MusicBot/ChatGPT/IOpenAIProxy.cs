@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KebabBot.ChatGPT
+namespace T3MusicBot.ChatGPT
 {
     public interface IOpenAIProxy
     {

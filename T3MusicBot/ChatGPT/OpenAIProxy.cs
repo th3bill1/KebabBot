@@ -8,12 +8,12 @@ using Standard.AI.OpenAI.Clients.OpenAIs;
 using Standard.AI.OpenAI.Models.Configurations;
 using Standard.AI.OpenAI.Models.Services.Foundations.ChatCompletions;
 
-namespace KebabBot.ChatGPT
+namespace T3MusicBot.ChatGPT
 {
     public class OpenAIProxy : IOpenAIProxy
     {
         readonly OpenAIClient openAIClient;
-        readonly string token_location = "C:\\Program Files\\KebabBot\\gpt_token.txt";
+        readonly string token_location = "C:\\Program Files\\T3MusicBot\\gpt_token.txt";
 
         //all messages in the conversation
         readonly List<ChatCompletionMessage> _messages;

@@ -3,11 +3,11 @@ using OpenWeatherMap.Entities;
 using OpenWeatherMap.Util;
 using System.IO;
 
-namespace KebabBot.Services
+namespace T3MusicBot.Services
 {
     public class WeatherService
     {
-        private readonly string token_location = "C:\\Program Files\\KebabBot\\openweather_token.txt";
+        private readonly string token_location = "C:\\Program Files\\T3MusicBot\\openweather_token.txt";
         private string _token;
         private OpenWeatherMapService _service;
 

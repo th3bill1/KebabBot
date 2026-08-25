@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace KebabBot.Services
+namespace T3MusicBot.Services
 {
     public static class LoggingService
     {

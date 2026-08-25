@@ -1,6 +1,6 @@
 ﻿using Discord;
 
-namespace KebabBot.Handlers
+namespace T3MusicBot.Handlers
 {
     public static class EmbedHandler
     {

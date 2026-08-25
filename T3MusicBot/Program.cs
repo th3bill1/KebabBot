@@ -1,8 +1,8 @@
-﻿using KebabBot.Services;
+﻿using T3MusicBot.Services;
 
-namespace KebabBot
+namespace T3MusicBot
 {
-    public class KebabBotProgram
+    public class T3MusicBotProgram
     {
         class Program
         {

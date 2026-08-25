@@ -1,13 +1,13 @@
 ﻿using Discord;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
-using KebabBot.Handlers;
+using T3MusicBot.Handlers;
 using Discord.Commands;
 using Discord.Interactions;
 using Victoria;
 using Microsoft.Extensions.Logging;
 
-namespace KebabBot.Services
+namespace T3MusicBot.Services
 {
     public class DiscordService
     {
@@ -27,7 +27,7 @@ namespace KebabBot.Services
             _interactionHandler = _services.GetRequiredService<InteractionHandler>();
             _lavaNode = _services.GetRequiredService<LavaNode<LavaPlayer<LavaTrack>, LavaTrack>>();
             _audioService = _services.GetRequiredService<AudioService>();
-            using (StreamReader sr = new("C:\\Program Files\\KebabBot\\discord_token.txt")) _token = sr.ReadToEnd();
+            using (StreamReader sr = new("C:\\Program Files\\T3MusicBot\\discord_token.txt")) _token = sr.ReadToEnd();
 
             SubscribeDiscordEvents();
         }
@@ -67,7 +67,7 @@ namespace KebabBot.Services
 
         private ServiceProvider ConfigureServices()
         {
-            using (StreamReader sr = new("C:\\Program Files\\KebabBot\\lavalink.txt"))
+            using (StreamReader sr = new("C:\\Program Files\\T3MusicBot\\lavalink.txt"))
             {
                 lavalink_hostname = sr.ReadLine();
                 lavalink_port = sr.ReadLine();

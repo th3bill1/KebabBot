@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 using Victoria;
 using Victoria.WebSocket.EventArgs;
 using Victoria.Enums;
-namespace KebabBot.Services
+namespace T3MusicBot.Services
 {
     public class AudioService
     {
